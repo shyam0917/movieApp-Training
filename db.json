@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "email": "gui",
+      "password": "mui",
+      "id": 1
+    },
+    {
+      "email": "aman@gmail.com",
+      "password": "aman",
+      "id": 2
+    },
+    {
+      "email": "hello",
+      "password": "drt",
+      "id": 3
+    },
+    {
+      "email": "aman",
+      "password": "testy",
+      "id": 4
+    }
+  ],
+  "movies": [
+    {
+      "backdrop_path": "/nprqOIEfiMMQx16lgKeLf3rmPrR.jpg",
+      "title": "Sweet Girl",
+      "genre_ids": [
+        28,
+        53,
+        18
+      ],
+      "original_language": "en",
+      "original_title": "Sweet Girl",
+      "poster_path": "/tshCVHOq1S99mxaV5IzR0oOco9P.jpg",
+      "video": false,
+      "vote_average": 6.7,
+      "overview": "A devastated husband vows to bring justice to the people responsible for his wife's death while protecting the only family he has left, his daughter.",
+      "release_date": "2021-08-18",
+      "vote_count": 25,
+      "id": 619297,
+      "adult": false,
+      "popularity": 107.936,
+      "media_type": "movie",
+      "apiId": "user"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

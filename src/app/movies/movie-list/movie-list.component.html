@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6" *ngFor="let movie of movies | paginate: { itemsPerPage: 20, currentPage: p, totalItems:totalItems }">
+        <div class="card">
+          <app-movie [movie]="movie" [flag]="flag">
+          </app-movie>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="movies && movies.length>0" id="pagination" class="text-center">
+      <pagination-controls (pageChange)="pageChanged($event)" [maxSize]="7" [directionLinks]="true"></pagination-controls>
+    </div> 
+  </div>

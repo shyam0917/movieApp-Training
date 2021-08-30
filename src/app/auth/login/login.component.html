@@ -1,0 +1,27 @@
+<div class="global-container">
+	<div class="card login-form">
+	<div class="card-body">
+		<h3 class="card-title text-center">Log in to Codepen</h3>
+		<div class="card-text">
+			<!--
+			<div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
+			<form #loginForm="ngForm">
+				<div class="form-group">
+					<label>Email address</label>
+					<input type="email" class="form-control form-control-sm" name="email" [(ngModel)]="userDetails.email">
+				</div>
+				<div class="form-group">
+					<label>Password</label>
+					<!-- <a href="#" style="float:right;font-size:12px;">Forgot password?</a> -->
+					<input type="password" class="form-control form-control-sm" name="password" [(ngModel)]="userDetails.password">
+				</div>
+				<button type="button" (click)="login(loginForm)" class="btn btn-primary btn-block">Sign in</button>
+				
+				<div class="sign-up">
+					Don't have an account? <a href="#">Create One</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+</div>
